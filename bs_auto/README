@@ -1,0 +1,15 @@
+Commands:
+py.test -v -s
+py.test -v
+py.test -s
+py.test -v -s -m ui
+
+Reporting:
+pytest --html="results.html"
+pytest --junitxml="result.xml"
+sudo pip install pytest-html
+
+To-do:
+add reporting
+add screenshots for failed
+add videos for failed scearios
